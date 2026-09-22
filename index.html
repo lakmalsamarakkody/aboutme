@@ -1,4 +1,45 @@
-<html>
-  <head><title>Hello</title></head>
-  <body>Hello World</body>
-</html>
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Lakmal Samarakkody — Software Engineer portfolio">
+<title>Lakmal Samarakkody | Software Engineer</title>
+<style>
+:root{--bg:#07111f;--panel:#0d1a2b;--text:#eaf2ff;--muted:#9eb0c8;--line:#20324a;--a:#62a8ff;--b:#8b7cff}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font:16px/1.6 system-ui,-apple-system,Segoe UI,sans-serif;color:var(--text);background:radial-gradient(circle at 80% 0,#172b4b,#07111f 42%)}
+a{color:inherit;text-decoration:none}.wrap{max-width:1120px;margin:auto;padding:0 24px}
+nav{position:sticky;top:0;z-index:5;background:#07111fcc;backdrop-filter:blur(14px);border-bottom:1px solid #ffffff12}
+.nav{height:68px;display:flex;align-items:center;justify-content:space-between}.brand{font-weight:800}.brand i{color:var(--a);font-style:normal}.links{display:flex;gap:22px;color:var(--muted);font-size:14px}.links a:hover{color:#fff}
+.hero{padding:105px 0 80px;display:grid;grid-template-columns:1.4fr .6fr;gap:50px;align-items:center}.k{color:var(--a);font-size:13px;font-weight:800;text-transform:uppercase;letter-spacing:2px}
+h1{font-size:clamp(46px,7vw,82px);line-height:.98;letter-spacing:-4px;margin:15px 0}h2{font-size:34px;line-height:1.1;margin:0 0 18px}h3{margin:0 0 8px}
+.hero h2{font-size:24px;color:#cbd8e9}.hero p,.lead,.card p{color:var(--muted)}.hero p{font-size:18px;max-width:680px}
+.actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:26px}.btn{display:inline-block;padding:11px 17px;border:1px solid var(--line);border-radius:12px;background:#102037;font-weight:750;cursor:pointer}.primary{border:0;background:linear-gradient(135deg,var(--a),var(--b));color:#06101d}
+.avatar{width:250px;height:250px;border-radius:50%;margin:auto;display:grid;place-items:center;font-size:72px;font-weight:900;background:linear-gradient(135deg,#1b385c,#16213c);border:1px solid #365173}
+section{padding:78px 0;border-top:1px solid #ffffff0d}.head{display:flex;justify-content:space-between;align-items:end;gap:20px;margin-bottom:28px}.lead{max-width:720px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.card{background:#0d1a2bcc;border:1px solid var(--line);border-radius:18px;padding:22px;transition:.2s}.card:hover{transform:translateY(-4px);border-color:#36577d}
+.tag{display:inline-block;padding:4px 9px;margin:5px 4px 0 0;border:1px solid #29425f;border-radius:99px;color:#b8cae1;font-size:12px}
+.timeline{margin-left:10px}.item{padding:0 0 30px 30px;border-left:2px solid #29425f;position:relative}.item:before{content:"";position:absolute;left:-7px;top:5px;width:12px;height:12px;border-radius:50%;background:var(--a)}.item small{color:var(--a);font-weight:800}
+.skills{display:flex;flex-wrap:wrap;gap:10px}.skill{padding:9px 13px;border-radius:12px;background:#0e2036;border:1px solid #203b5b}
+.project{min-height:200px;display:flex;flex-direction:column}.bottom{margin-top:auto}.contact{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+footer{padding:35px 0 55px;text-align:center;color:var(--muted)}#top{position:fixed;right:20px;bottom:20px;display:none;width:45px;height:45px;border:1px solid var(--line);border-radius:50%;background:#102037;color:#fff}
+.reveal{opacity:0;transform:translateY(14px);transition:.6s}.show{opacity:1;transform:none}
+@media(max-width:800px){.hero{grid-template-columns:1fr}.avatar{width:190px;height:190px;font-size:55px}.grid{grid-template-columns:1fr 1fr}.links{display:none}.head{align-items:start;flex-direction:column}}
+@media(max-width:560px){.wrap{padding:0 17px}.grid,.contact{grid-template-columns:1fr}h1{letter-spacing:-2px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.reveal{transition:none}}
+</style>
+</head>
+<body>
+<nav><div class="wrap nav"><a class="brand" href="#home">Lakmal<i>.</i></a><div class="links"><a href="#about">About</a><a href="#experience">Experience</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#contact">Contact</a></div></div></nav>
+<main id="home">
+<section class="hero wrap"><div class="reveal"><div class="k">Software Engineer · Developer</div><h1>Lakmal<br>Samarakkody</h1><h2>Building practical software for real-world problems.</h2><p>Software Engineer with professional experience across enterprise, web, desktop and mobile application development. I enjoy learning technologies, designing useful systems and turning ideas into working software.</p><div class="actions"><a class="btn primary" href="#projects">Explore my work ↓</a><a class="btn" href="https://www.linkedin.com/in/lakmalsamarakkody/" target="_blank" rel="noreferrer">LinkedIn ↗</a><a class="btn" href="https://github.com/lakmalsamarakkody" target="_blank" rel="noreferrer">GitHub ↗</a></div></div><div class="avatar reveal">LS</div></section>
+<section id="about"><div class="wrap reveal"><div class="head"><div><div class="k">01 · About</div><h2>A little about me</h2></div></div><p class="lead">I hold a Bachelor of Information Technology from the University of Colombo School of Computing. My development experience includes enterprise software, web applications, desktop systems, Android/mobile projects and machine-learning experiments.</p><div class="grid"><div class="card"><h3>🎓 Education</h3><p>Bachelor of Information Technology<br>University of Colombo School of Computing</p></div><div class="card"><h3>💻 Focus</h3><p>Software engineering, full-stack development, enterprise applications, automation and emerging technologies.</p></div><div class="card"><h3>🌎 Journey</h3><p>Software development experience in Sri Lanka and an ongoing technology journey in the United States.</p></div></div></div></section>
+<section id="experience"><div class="wrap reveal"><div class="head"><div><div class="k">02 · Experience</div><h2>Professional journey</h2></div></div><div class="timeline"><div class="item"><small>JUN 2021 — AUG 2024</small><h3>Software Engineer · HCLTech</h3><p>Enterprise software engineering using C#, .NET, ASP.NET MVC, WPF and MVVM.</p></div><div class="item"><small>JAN 2020 — JUN 2020</small><h3>Software Engineer Intern · Board of Investment of Sri Lanka</h3><p>Software engineering internship supporting practical application development.</p></div><div class="item"><small>2016 — 2020</small><h3>Bachelor of Information Technology · UCSC</h3><p>Information technology studies with hands-on software development projects.</p></div></div></div></section>
+<section id="skills"><div class="wrap reveal"><div class="head"><div><div class="k">03 · Toolkit</div><h2>Technologies</h2></div></div><div class="skills"><span class="skill">C#</span><span class="skill">.NET</span><span class="skill">ASP.NET MVC</span><span class="skill">WPF</span><span class="skill">MVVM</span><span class="skill">PHP</span><span class="skill">JavaScript</span><span class="skill">Java</span><span class="skill">Dart</span><span class="skill">Python</span><span class="skill">SQL</span><span class="skill">Android</span><span class="skill">Flutter</span><span class="skill">Machine Learning</span><span class="skill">Git</span></div></div></section>
+<section id="projects"><div class="wrap reveal"><div class="head"><div><div class="k">04 · Projects</div><h2>Things I've built</h2></div><a class="btn" href="https://github.com/lakmalsamarakkody?tab=repositories" target="_blank" rel="noreferrer">All repositories ↗</a></div><div class="grid"><a class="card project" href="https://github.com/lakmalsamarakkody" target="_blank" rel="noreferrer"><div><h3>UCSC FIT Projects</h3><p>Web and Android application work from my IT studies and development journey.</p></div><div class="bottom"><span class="tag">Web</span><span class="tag">Android</span></div></a><a class="card project" href="https://github.com/lakmalsamarakkody" target="_blank" rel="noreferrer"><div><h3>Python & ML</h3><p>Python-based machine-learning and experimentation projects.</p></div><div class="bottom"><span class="tag">Python</span><span class="tag">ML</span></div></a><a class="card project" href="https://github.com/lakmalsamarakkody" target="_blank" rel="noreferrer"><div><h3>Management Systems</h3><p>Academic and practical systems for organizing information and workflows.</p></div><div class="bottom"><span class="tag">Software</span><span class="tag">Database</span></div></a></div></div></section>
+<section id="contact"><div class="wrap reveal"><div class="k">05 · Connect</div><h2>Let's connect</h2><div class="contact"><a class="card" href="https://www.linkedin.com/in/lakmalsamarakkody/" target="_blank" rel="noreferrer"><div><h3>LinkedIn</h3><p>Professional profile & career</p></div><b>↗</b></a><a class="card" href="https://github.com/lakmalsamarakkody" target="_blank" rel="noreferrer"><div><h3>GitHub</h3><p>Code, repositories & projects</p></div><b>↗</b></a></div></div></section>
+</main>
+<footer>© <span id="year"></span> Lakmal Samarakkody · Built with HTML, CSS & JavaScript · GitHub Pages</footer>
+<button id="top" aria-label="Back to top">↑</button>
+<script>const rs=document.querySelectorAll('.reveal');const io=new IntersectionObserver(es=>es.forEach(e=>e.isIntersecting&&e.target.classList.add('show')),{threshold:.12});rs.forEach(e=>io.observe(e));document.getElementById('year').textContent=new Date().getFullYear();const t=document.getElementById('top');addEventListener('scroll',()=>t.style.display=scrollY>500?'block':'none',{passive:true});t.onclick=()=>scrollTo({top:0,behavior:'smooth'});</script>
+</body></html>
